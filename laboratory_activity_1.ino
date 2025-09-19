@@ -7,12 +7,12 @@ void setup() {
 }
 
 void loop() {
-  for (int i = 0; i <= 4; i++) {
+  for (int i = 4; i >= 0; i--) {
     digitalWrite(ledPins[i], HIGH);
     delay(1000);
   }
   
-  for (int i = 0; i <= 4; i++) {
+  for (int i = 4; i >= 0; i--) {
     digitalWrite(ledPins[i], LOW);
     delay(1000);
   }
