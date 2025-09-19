@@ -1,3 +1,5 @@
+//Laboratory Activity #1: Working with Digital Signals
+
 int ledPins[] = {8, 9, 10, 11, 12};
 
 void setup() {
