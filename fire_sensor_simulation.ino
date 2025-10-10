@@ -1,4 +1,4 @@
-// FIRE SENSOR SIMULATION
+// FIRE SENSOR
 
 #define THERMISTOR_PIN A0
 #define PHOTORESISTOR_PIN A2
@@ -32,21 +32,14 @@ void setup() {
 
 void loop() {
   float temperature = readTemperature();
-  int brightnessValue = readBrightness();
-  int lightDetected;
-
-  if (brightnessValue >= LIGHT_THRESHOLD) {
-    lightDetected = HIGH;
-  } else {
-    lightDetected = LOW;
-  }
+  int brightness = readBrightness();
 
   Serial.print("Temperature: ");
   Serial.print(temperature);
   Serial.print(" °C | Brightness: ");
-  Serial.println(lightDetected == HIGH ? "HIGH" : "LOW");
+  Serial.println(brightness);
 
-  if (temperature >= TEMP_THRESHOLD && lightDetected == HIGH) {
+  if (temperature >= TEMP_THRESHOLD && brightness >= LIGHT_THRESHOLD) {
     digitalWrite(ALERT_PIN, HIGH);
     delay(100);
     digitalWrite(ALERT_PIN, LOW);
