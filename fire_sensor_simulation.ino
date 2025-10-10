@@ -27,7 +27,6 @@ int readBrightness() {
 void setup() {
   Serial.begin(9600);
   pinMode(ALERT_PIN, OUTPUT);
-  pinMode(PHOTORESISTOR_PIN, INPUT);
 }
 
 void loop() {
