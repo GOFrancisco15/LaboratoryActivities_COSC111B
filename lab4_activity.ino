@@ -1,3 +1,5 @@
+//Laboratory Activity #4: Arduino Serial Connection
+
 #define PHOTORESISTOR_PIN A2
 #define ALERT_PIN 8
 
