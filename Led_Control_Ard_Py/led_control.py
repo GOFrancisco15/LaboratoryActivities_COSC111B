@@ -1,6 +1,5 @@
 import serial
 import time
-import sys
 import os
 
 ARDUINO_PORT = 'COM8' 
@@ -51,3 +50,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
