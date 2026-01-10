@@ -42,8 +42,3 @@ An LED connected to **digital pin 12** rapidly blinks to indicate a potential fi
 |----------|-------------|
 | `lab3_activity.ino` | Arduino sketch implementing thermistor and photoresistor sensing with alert logic |
 | `lab3_breadboard_diagram.png` | Breadboard diagram illustrating the sensor and alert component connections |
-
----
-
-## 📝 Notes
-This activity highlights the importance of combining multiple sensor inputs to reduce false triggers in safety-related systems. The modular code structure and clear separation of sensor logic support scalability and maintainability for more advanced IoT applications.
