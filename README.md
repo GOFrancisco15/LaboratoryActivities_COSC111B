@@ -3,7 +3,7 @@
 ## 📌 Description
 This laboratory activity demonstrates the use of **Arduino Serial communication** to monitor sensor data and control hardware behavior through user input. It integrates a **photoresistor sensor** with Serial-based interaction to showcase how real-time data and commands can influence system states.
 
-The activity builds on previous sensor-based implementations by introducing persistent behavior control using Serial input.
+The activity extends the concepts introduced in Laboratory Activity #3 by integrating a sensor-based condition with Serial commands to dynamically control an LED.
 
 ---
 
@@ -39,8 +39,3 @@ The blinking state can only be stopped by sending a specific command through the
 |----------|-------------|
 | `lab4_activity.ino` | Arduino sketch implementing photoresistor sensing, Serial communication, and persistent LED control |
 | `lab4_breadboard_diagram.png` | Breadboard diagram illustrating the connections between the Arduino, photoresistor, LED, and resistors |
-
----
-
-## 📝 Notes
-This activity emphasizes the importance of Serial communication for interaction, debugging, and control in embedded systems. The use of persistent states and command-based overrides is a key concept for more advanced Arduino and IoT applications.
