@@ -37,8 +37,3 @@ This behavior visually demonstrates how analog output values can be used to cont
 |----------|-------------|
 | `lab2_activity.ino` | Arduino sketch demonstrating analog output control using arrays and while loops |
 | `lab2_breadboard_diagram.png` | Breadboard diagram showing the LED connections used for the analog signal activity |
-
----
-
-## 📝 Notes
-This activity reinforces the difference between digital and analog signal control. The use of arrays and iterative loops prepares students for more complex sensor-based and multi-output Arduino applications.
