@@ -35,8 +35,3 @@ This continuous sequence provides a visual representation of how digital outputs
 |----------|-------------|
 | `lab1_activity.ino` | Arduino sketch containing the logic for configuring digital pins and controlling the LED sequence |
 | `lab1_breadboard_diagram.png` | Breadboard diagram illustrating the hardware connections between the Arduino, LEDs, and resistors |
-
----
-
-## 📝 Notes
-This activity serves as an introductory exercise in digital signal control and is intended to reinforce fundamental concepts required for more advanced IoT and embedded systems applications.
