@@ -1,4 +1,4 @@
-// FIRE SENSOR
+//Laboratory Activity #3: Working with Sensors
 
 #define THERMISTOR_PIN A0
 #define PHOTORESISTOR_PIN A2
