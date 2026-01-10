@@ -57,8 +57,3 @@ This exchange demonstrates real-time, bidirectional communication with a respons
 | `lab6_activity.ino` | Arduino sketch handling button input, outbound serial signals, inbound commands, and LED toggling |
 | `lab6_activity.py` | Python script using `pyserial` to receive Arduino signals and send control responses |
 | `lab6_breadboard_diagram.png` | Breadboard diagram illustrating the connections between buttons, LEDs, and the Arduino |
-
----
-
-## 📝 Notes
-This activity emphasizes synchronization between hardware and software systems. The use of edge detection, state toggling, and continuous serial monitoring reflects real-world practices used in IoT devices, automation systems, and embedded control applications.
