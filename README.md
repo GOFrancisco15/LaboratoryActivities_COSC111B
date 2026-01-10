@@ -1,45 +1,46 @@
 # Laboratory Activity #4 – Arduino Serial Connection
 
 ## 📌 Description
-This laboratory activity focuses on the implementation of **serial communication** between an Arduino board and a computer. It demonstrates how sensor data can be monitored through the Serial interface and how user input from the Serial Monitor can be used to control system behavior.
+This laboratory activity demonstrates the use of **Arduino Serial communication** to monitor sensor data and control hardware behavior through user input. It integrates a **photoresistor sensor** with Serial-based interaction to showcase how real-time data and commands can influence system states.
 
-The activity extends the concepts introduced in Laboratory Activity #3 by integrating a sensor-based condition with Serial commands to dynamically control an LED.
+The activity builds on previous sensor-based implementations by introducing persistent behavior control using Serial input.
 
 ---
 
 ## 🎯 Objectives
-- Understand and implement Arduino Serial communication  
-- Utilize basic Serial functions for data input and output  
-- Develop a simple circuit that can be controlled through Serial connection  
+- Understand and implement Arduino Serial communication
+- Utilize basic Serial functions for monitoring and control
+- Develop a sensor-based circuit controlled through Serial commands
 
 ---
 
 ## 🧠 Concepts Applied
-- Serial communication using `Serial.begin()`, `Serial.print()`, and `Serial.read()`
-- Sensor data acquisition
-- Threshold-based decision logic
-- State control using boolean flags
-- Case-insensitive string handling
-- Digital output control using `digitalWrite()`
+- Serial communication using `Serial.begin()`, `Serial.print()`, and `Serial.readStringUntil()`
+- Analog sensor data acquisition using `analogRead()`
+- Signal mapping using `map()`
+- Threshold-based logic
+- State management using boolean flags
+- Case-insensitive string processing
+- Digital output control for LED blinking
 
 ---
 
 ## 💡 System Overview
-The system uses an Arduino Uno connected to a single sensor (thermistor or photoresistor) and an LED connected to **digital pin 8**. Sensor readings are continuously monitored and transmitted through the Serial interface.
+The system uses a **photoresistor connected to analog pin A2** to measure light intensity. Sensor readings are mapped to a scaled brightness value and continuously transmitted through the Serial interface for monitoring.
 
-When the sensor value reaches a predefined threshold, the LED enters a blinking state. This blinking behavior persists independently of subsequent sensor readings and can only be terminated by sending a specific command through the Serial Monitor.
+An LED connected to **digital pin 8** acts as an alert indicator. When the brightness value exceeds a predefined threshold, the LED enters a blinking state. This blinking behavior is maintained even if the sensor reading later falls below the threshold, demonstrating persistent state control.
 
-This setup demonstrates how Serial communication can be used not only for monitoring sensor data but also for interactive control of hardware components.
+The blinking state can only be stopped by sending a specific command through the Serial interface, highlighting the role of Serial input in overriding sensor-driven behavior.
 
 ---
 
 ## 🗂 Files Included
 | File Name | Description |
 |----------|-------------|
-| `lab4_activity.ino` | Arduino sketch implementing sensor monitoring, Serial communication, and LED control logic |
-| `lab4_breadboard_diagram.png` | Breadboard diagram showing the sensor, LED, and Arduino connections used in the activity |
+| `lab4_activity.ino` | Arduino sketch implementing photoresistor sensing, Serial communication, and persistent LED control |
+| `lab4_breadboard_diagram.png` | Breadboard diagram illustrating the connections between the Arduino, photoresistor, LED, and resistors |
 
 ---
 
 ## 📝 Notes
-This activity highlights the role of Serial communication in embedded systems, particularly for debugging, monitoring, and remote control. The concepts applied here are essential for developing interactive and sensor-driven IoT applications.
+This activity emphasizes the importance of Serial communication for interaction, debugging, and control in embedded systems. The use of persistent states and command-based overrides is a key concept for more advanced Arduino and IoT applications.
