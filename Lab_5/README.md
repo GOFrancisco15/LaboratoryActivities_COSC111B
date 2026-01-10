@@ -48,5 +48,5 @@ This setup demonstrates real-time control of LEDs with immediate feedback from t
 |-----------|-------------|
 | `lab5_activity.ino` | Arduino sketch handling serial input and controlling LEDs based on commands |
 | `lab5_activity.py` | Python script providing a menu interface to send commands to Arduino via serial |
-| `activity_functions.h` | Header file containing reusable functions for LED initialization and control (`toggleRed`, `toggleGreen`, `toggleBlue`, `allOn`, `allOff`) |
+| `lab5_activity_functions.h` | Header file containing reusable functions for LED initialization and control (`toggleRed`, `toggleGreen`, `toggleBlue`, `allOn`, `allOff`) |
 | `lab5_breadboard_diagram.png` | Breadboard diagram illustrating LED connections to Arduino pins 8, 9, and 10 |
