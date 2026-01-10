@@ -1,3 +1,5 @@
+//Laboratory Activity #2: Working with Analog Signals
+
 int ledPins[] = {8, 9, 10, 11, 12};
 int numLeds = 5;
 
