@@ -1,8 +1,10 @@
+# Finals Laboratory Exam - Arduino-to-Python Client System
+
 import serial
 import requests
 import time
 
-PORT = "COM8"          # change if needed
+PORT = "COM8"
 BAUD = 9600
 BASE_URL = "http://172.20.10.3:8000"
 
@@ -15,13 +17,11 @@ while True:
     if ser.in_waiting > 0:
         data = ser.readline().decode().strip()
 
-        # Validate input
         if data.isdigit():
             group = data
             endpoint = f"/led/group/{group}/toggle"
             url = BASE_URL + endpoint
 
-            # Display feedback
             print(f"✅ Received Group Number: {group}")
             print(f"🔗 Endpoint Called: {endpoint}")
 
