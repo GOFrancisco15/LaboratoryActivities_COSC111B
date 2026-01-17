@@ -4,18 +4,15 @@ import time
 
 app = FastAPI()
 
-# Serial setup
 arduino = serial.Serial('COM8', 9600, timeout=1)
-time.sleep(2)  # Allow Arduino to initialize
+time.sleep(2)
 
-# Python-side LED states
 led_states = {
     "red": False,
     "green": False,
     "blue": False
 }
 
-# Map colors to Arduino commands
 led_cmds = {
     "red": b'1\n',
     "green": b'2\n',
@@ -25,19 +22,19 @@ led_cmds = {
 def send_command(color):
     """Send toggle command to Arduino and update Python state."""
     arduino.write(led_cmds[color])
-    led_states[color] = not led_states[color]  # Toggle Python state
+    led_states[color] = not led_states[color]
 
 @app.get("/led/on")
 def led_all_on():
     for color, state in led_states.items():
-        if not state:  # If LED is OFF, toggle it
+        if not state:
             send_command(color)
     return {"status": "All LEDs ON"}
 
 @app.get("/led/off")
 def led_all_off():
     for color, state in led_states.items():
-        if state:  # If LED is ON, toggle it
+        if state:
             send_command(color)
     return {"status": "All LEDs OFF"}
 
@@ -48,3 +45,4 @@ def led_toggle(color: str):
         return {"status": "Invalid color. Use red, green, or blue."}
     send_command(color)
     return {"status": f"{color} LED toggled"}
+
