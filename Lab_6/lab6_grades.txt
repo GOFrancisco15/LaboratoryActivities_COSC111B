@@ -1,1 +1,18 @@
+Laboratory Activity #7: Controllling Arduino using FastAPI
 
+Leader:
+
+Francisco, Gerard Obey S.
+
+
+Members:
+
+Barrion, Merell Joy B. - 99
+
+De Asis, Johnny S. - 96
+
+Padilla, Allexzeus Marvel A. - 98
+
+Osit, Eduardo V. - 100
+
+Roldan, Maureen T. - 97
