@@ -1,3 +1,5 @@
+# Laboratory Activity #7: Controllling Arduino using FastAPI
+
 from fastapi import FastAPI
 import serial
 import time
@@ -45,4 +47,5 @@ def led_toggle(color: str):
         return {"status": "Invalid color. Use red, green, or blue."}
     send_command(color)
     return {"status": f"{color} LED toggled"}
+
 
