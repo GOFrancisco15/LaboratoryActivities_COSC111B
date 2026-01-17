@@ -1,4 +1,4 @@
-Laboratory Activity #7: Controllling Arduino using FastAPI
+Laboratory Activity #6: Bidirectional Control Using Arduino and Python
 
 Leader:
 
