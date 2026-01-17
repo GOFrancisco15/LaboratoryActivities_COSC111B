@@ -1,3 +1,5 @@
+# Laboratory Activity #6: Bidirectional Control Using Arduino and Python
+
 import serial
 import time
 
@@ -24,3 +26,4 @@ while True:
         elif data == 'B':
             ser.write(b'3\n')
             print("Button 3 pressed → Sent 3")
+
