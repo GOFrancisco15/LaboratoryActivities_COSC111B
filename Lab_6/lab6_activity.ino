@@ -1,3 +1,5 @@
+// Laboratory Activity #6: Bidirectional Control Using Arduino and Python
+
 const int RED_LED = 7;
 const int GREEN_LED = 6;
 const int BLUE_LED = 5;
