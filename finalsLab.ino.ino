@@ -1,5 +1,7 @@
+// Finals Laboratory Exam - Arduino-to-Python Client System
+
 const int BUTTON = 2;
-const int GROUP = 5;   // change to your group number
+const int GROUP = 5;
 
 bool lastState = HIGH;
 
@@ -11,10 +13,9 @@ void setup() {
 void loop() {
   bool currentState = digitalRead(BUTTON);
 
-  // Detect button press (HIGH → LOW)
   if (lastState == HIGH && currentState == LOW) {
-    Serial.println(GROUP);     // send group number once
-    delay(200);                // simple debounce
+    Serial.println(GROUP);
+    delay(200);
   }
 
   lastState = currentState;
