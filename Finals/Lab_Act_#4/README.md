@@ -31,11 +31,3 @@ The system uses a **photoresistor connected to analog pin A2** to measure light 
 An LED connected to **digital pin 8** acts as an alert indicator. When the brightness value exceeds a predefined threshold, the LED enters a blinking state. This blinking behavior is maintained even if the sensor reading later falls below the threshold, demonstrating persistent state control.
 
 The blinking state can only be stopped by sending a specific command through the Serial interface, highlighting the role of Serial input in overriding sensor-driven behavior.
-
----
-
-## 🗂 Files Included
-| File Name | Description |
-|----------|-------------|
-| `lab4_activity.ino` | Arduino sketch implementing photoresistor sensing, Serial communication, and persistent LED control |
-| `lab4_breadboard_diagram.png` | Breadboard diagram illustrating the connections between the Arduino, photoresistor, LED, and resistors |
