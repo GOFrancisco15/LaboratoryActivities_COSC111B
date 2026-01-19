@@ -44,7 +44,7 @@ This repository contains all my projects and laboratory activities for COSC 111B
 ## Tools & Technologies
 - Arduino IDE  
 - Visual Studio Code (recommended)
-- Basic electronic components (LEDs, sensors, breadboards)  
+- Basic electronic components (LEDs, buttons, sensors, breadboards)
 
 ---
 
