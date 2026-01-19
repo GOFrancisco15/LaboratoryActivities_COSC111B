@@ -28,7 +28,7 @@ Each folder contains the files needed to run the lab, including code, headers, a
 ---
 
 ## Notes
-- Each lab is **self-contained**, so files named `main.ino` or `main.py` are only relevant within their folder.  
+- Each lab is **self-contained**, so files are only relevant within their folder.  
 - Folders are grouped by **Midterm** and **Finals** for easier navigation.  
 - This repository is intended for **learning, academic practice, and project portfolio purposes**.
 
