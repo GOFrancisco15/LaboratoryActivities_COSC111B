@@ -34,3 +34,11 @@ The system uses two sensors:
 Sensor readings are processed through separate functions for clarity and modularity. When **both** the temperature and brightness exceed their defined threshold values, an alert mechanism is triggered.
 
 An LED connected to **digital pin 12** rapidly blinks to indicate a potential fire condition. This visual alert demonstrates how multiple sensor inputs can be combined to determine system responses.
+
+---
+
+## 👥 Team Members
+- **Team Leader:** Merell Joy B. Barrion
+- **Members:**
+  - Gerard Obey S. Francisco
+  - Maureen T. Roldan
