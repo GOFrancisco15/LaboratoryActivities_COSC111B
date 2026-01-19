@@ -15,11 +15,13 @@ This repository contains all my projects and laboratory activities for COSC 111B
 `FINAL-PROJECT-Student-Portfolio-for-COSC-111B/`
 
   `Midterms/`
-    `Lab_Act_#1-3`
+    `Lab_Act_#1`
+    `Lab_Act_#2`
+    `Lab_Act_#3`
     `Midterms_Lab_Exam`
     
   `Finals/`
-    `Lab_Act_#4-7`
+    `Lab_Act_#4-7`, 
     `Finals_Lab_Exam`
 
 ---
