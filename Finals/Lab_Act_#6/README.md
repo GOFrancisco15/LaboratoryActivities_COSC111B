@@ -48,3 +48,14 @@ The Arduino receives these values and toggles the corresponding LED:
 - `3` toggles the blue LED
 
 This exchange demonstrates real-time, bidirectional communication with a response time of less than one second.
+
+---
+
+## 👥 Team Members
+- **Team Leader:** Gerard Obey S. Francisco
+- **Members:**
+  - Merell Joy B. Barrion
+  - Johnny S. De Asis Jr.
+  - Eduardo V. Osit
+  - Allexzeus Marvel C. Padilla
+  - Maureen T. Roldan
