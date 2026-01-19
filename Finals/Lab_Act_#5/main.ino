@@ -1,3 +1,5 @@
+// Laboratory Activity #5 – Receiving Serial Connection Using Arduino from Python
+
 #include "led_functions.h"
 
 void setup() {
