@@ -1,3 +1,5 @@
+# Laboratory Activity #5 – Receiving Serial Connection Using Arduino from Python
+
 import serial
 import time
 import os
@@ -50,4 +52,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
