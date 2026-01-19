@@ -48,12 +48,3 @@ The Arduino receives these values and toggles the corresponding LED:
 - `3` toggles the blue LED
 
 This exchange demonstrates real-time, bidirectional communication with a response time of less than one second.
-
----
-
-## 🗂 Files Included
-| File Name | Description |
-|----------|-------------|
-| `lab6_activity.ino` | Arduino sketch handling button input, outbound serial signals, inbound commands, and LED toggling |
-| `lab6_activity.py` | Python script using `pyserial` to receive Arduino signals and send control responses |
-| `lab6_breadboard_diagram.png` | Breadboard diagram illustrating the connections between buttons, LEDs, and the Arduino |
