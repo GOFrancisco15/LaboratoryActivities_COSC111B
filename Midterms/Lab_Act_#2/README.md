@@ -29,11 +29,3 @@ The system consists of five LEDs connected to Arduino digital pins **8 to 12**. 
 The program sequentially activates the LEDs from **pin 12 down to pin 8** by setting their brightness to the maximum analog value. After all LEDs are turned on, the program sequentially reduces their brightness to zero in the same order.
 
 This behavior visually demonstrates how analog output values can be used to control LED intensity and how looping structures and arrays simplify hardware control logic.
-
----
-
-## 🗂 Files Included
-| File Name | Description |
-|----------|-------------|
-| `lab2_activity.ino` | Arduino sketch demonstrating analog output control using arrays and while loops |
-| `lab2_breadboard_diagram.png` | Breadboard diagram showing the LED connections used for the analog signal activity |
