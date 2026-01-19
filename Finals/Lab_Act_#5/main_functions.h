@@ -1,3 +1,5 @@
+// Laboratory Activity #5 – Receiving Serial Connection Using Arduino from Python
+
 #ifndef LED_FUNCTIONS_H
 #define LED_FUNCTIONS_H
 
@@ -46,3 +48,4 @@ void allOff() {
 }
 
 #endif
+
