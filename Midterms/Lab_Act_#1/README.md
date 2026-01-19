@@ -27,3 +27,11 @@ The program controls five LEDs connected to Arduino digital pins **8 to 12**.
 The LEDs are activated sequentially from **pin 12 to pin 8**, followed by a sequential deactivation in the same order. A fixed delay is applied between each state change to clearly demonstrate the flow of digital signals.
 
 This continuous sequence provides a visual representation of how digital outputs are controlled programmatically in an Arduino-based system.
+
+---
+
+## 👥 Team Members
+- **Team Leader:** Gerard Obey S. Francisco
+- **Members:**
+  - Member 1 Merell Joy B. Barrion
+  - Member 2 Maureen T. Roldan
