@@ -1,4 +1,4 @@
-# FINAL-PROJECT-Student-Portfolio-for-COSC-111B
+# FINAL PROJECT Student Portfolio for COSC 111B
 
 This repository contains laboratory activities for **COSC 111B - CS ELECTIVE 3** (Internet of Things).  
 It includes exercises from midterm and final assessments, covering Arduino programming, sensors, LEDs, and basic embedded system concepts.
