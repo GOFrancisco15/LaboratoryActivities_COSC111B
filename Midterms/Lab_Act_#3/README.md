@@ -34,11 +34,3 @@ The system uses two sensors:
 Sensor readings are processed through separate functions for clarity and modularity. When **both** the temperature and brightness exceed their defined threshold values, an alert mechanism is triggered.
 
 An LED connected to **digital pin 12** rapidly blinks to indicate a potential fire condition. This visual alert demonstrates how multiple sensor inputs can be combined to determine system responses.
-
----
-
-## 🗂 Files Included
-| File Name | Description |
-|----------|-------------|
-| `lab3_activity.ino` | Arduino sketch implementing thermistor and photoresistor sensing with alert logic |
-| `lab3_breadboard_diagram.png` | Breadboard diagram illustrating the sensor and alert component connections |
