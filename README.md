@@ -36,8 +36,7 @@ The system consists of:
 **Workflow:**
 1. User presses the button on the Arduino  
 2. Arduino sends the assigned **group number** via the Serial Monitor  
-3. Python client reads the serial input, validates it, and sends an HTTP request to the API:  
-/led/group/<number>/toggle
+3. Python client reads the serial input, validates it, and sends an HTTP request to the API: /led/group/<number>/toggle
 4. Python client displays feedback:  
 - Group number received  
 - Endpoint called  
