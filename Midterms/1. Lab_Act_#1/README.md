@@ -33,5 +33,5 @@ This continuous sequence provides a visual representation of how digital outputs
 ## 🗂 Files Included
 | File Name | Description |
 |----------|-------------|
-| `lab1_activity.ino` | Arduino sketch containing the logic for configuring digital pins and controlling the LED sequence |
-| `lab1_breadboard_diagram.png` | Breadboard diagram illustrating the hardware connections between the Arduino, LEDs, and resistors |
+| `main.ino` | Arduino sketch containing the logic for configuring digital pins and controlling the LED sequence |
+| `breadboard_diagram.png` | Breadboard diagram illustrating the hardware connections between the Arduino, LEDs, and resistors |
