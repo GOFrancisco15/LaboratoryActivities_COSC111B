@@ -55,12 +55,4 @@ The system displays the following every second:
 - Light Intensity (%)  
 - Current Mode (Manual/Automatic)  
 - Active LED (Green/Yellow/Red)  
-- Environment condition (Cloudy/Clear in automatic mode)  
-
----
-
-## 🗂 Files Included
-| File Name | Description |
-|-----------|-------------|
-| `lab3_smart_lighting.ino` | Arduino sketch implementing the smart lighting system with manual and automatic modes |
-| `lab3_breadboard_diagram.png` | Breadboard diagram showing connections between the photoresistor and LEDs |
+- Environment condition (Cloudy/Clear in automatic mode)
