@@ -21,7 +21,10 @@ This repository contains all my projects and laboratory activities for COSC 111B
     `Midterms_Lab_Exam`
     
   `Finals/`
-    `Lab_Act_#4-7`, 
+    `Lab_Act_#4`, 
+    `Lab_Act_#5`, 
+    `Lab_Act_#6`, 
+    `Lab_Act_#7`, 
     `Finals_Lab_Exam`
 
 ---
