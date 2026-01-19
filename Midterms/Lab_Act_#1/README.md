@@ -33,5 +33,5 @@ This continuous sequence provides a visual representation of how digital outputs
 ## 👥 Team Members
 - **Team Leader:** Gerard Obey S. Francisco
 - **Members:**
-  - Member 1 Merell Joy B. Barrion
-  - Member 2 Maureen T. Roldan
+  - Merell Joy B. Barrion
+  - Maureen T. Roldan
