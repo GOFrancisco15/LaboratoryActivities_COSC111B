@@ -56,3 +56,13 @@ The system displays the following every second:
 - Current Mode (Manual/Automatic)  
 - Active LED (Green/Yellow/Red)  
 - Environment condition (Cloudy/Clear in automatic mode)
+
+---
+
+## 👥 Team Members
+- **Team Leader:** Gerard Obey S. Francisco
+- **Members:**
+  - Merell Joy B. Barrion
+  - Jose Angelo B. Bitanga
+  - Maureen T. Roldan
+  - John Mark L. Serrona
