@@ -45,14 +45,4 @@ The system consists of:
 **Rules:**
 - One button press = one API request  
 - Long button presses must **not** generate repeated API calls  
-- All serial input must be validated and errors displayed if necessary  
-
----
-
-## 🗂 Files Included
-| File Name | Description |
-|-----------|-------------|
-| `arduino_button.ino` | Arduino sketch reading button presses and sending signals via serial |
-| `python_client.py` | Python script that listens to Arduino serial signals and triggers API calls |
-| `api_documentation.txt` | Example API endpoint documentation provided by the instructor |
-
+- All serial input must be validated and errors displayed if necessary
