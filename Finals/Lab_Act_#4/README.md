@@ -31,3 +31,12 @@ The system uses a **photoresistor connected to analog pin A2** to measure light 
 An LED connected to **digital pin 8** acts as an alert indicator. When the brightness value exceeds a predefined threshold, the LED enters a blinking state. This blinking behavior is maintained even if the sensor reading later falls below the threshold, demonstrating persistent state control.
 
 The blinking state can only be stopped by sending a specific command through the Serial interface, highlighting the role of Serial input in overriding sensor-driven behavior.
+
+
+---
+
+## 👥 Team Members
+- **Team Leader:** Gerard Obey S. Francisco
+- **Members:**
+  - Merell Joy B. Barrion
+  - Maureen T. Roldan
