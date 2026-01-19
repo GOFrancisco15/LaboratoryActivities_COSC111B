@@ -38,3 +38,12 @@ The system consists of:
   - `/led/off` — turns all LEDs OFF
 
 The Python application communicates with the Arduino through a serial connection, sending single-character commands that correspond to each LED.
+
+## 👥 Team Members
+- **Team Leader:** Allexzues Marvel C. Padilla
+- **Members:**
+  - Merell Joy B. Barrion
+  - Johnny S. De Asis
+  - Gerard Obey S. Francisco
+  - Eduardo V. Osit
+  - Maureen T. Roldan
