@@ -27,11 +27,3 @@ The program controls five LEDs connected to Arduino digital pins **8 to 12**.
 The LEDs are activated sequentially from **pin 12 to pin 8**, followed by a sequential deactivation in the same order. A fixed delay is applied between each state change to clearly demonstrate the flow of digital signals.
 
 This continuous sequence provides a visual representation of how digital outputs are controlled programmatically in an Arduino-based system.
-
----
-
-## 🗂 Files Included
-| File Name | Description |
-|----------|-------------|
-| `main.ino` | Arduino sketch containing the logic for configuring digital pins and controlling the LED sequence |
-| `breadboard_diagram.png` | Breadboard diagram illustrating the hardware connections between the Arduino, LEDs, and resistors |
