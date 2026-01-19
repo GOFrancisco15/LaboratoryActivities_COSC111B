@@ -7,6 +7,41 @@ Each folder contains the files needed to run the lab, including code, headers, a
 
 ---
 
+## 📂 Folder Structure
+
+This repository contains all my projects and laboratory activities for COSC 111B (IoT Systems). Below is an overview of the folder organization:
+
+
+FINAL-PROJECT-Student-Portfolio-for-COSC-111B/
+│
+├── Midterms/ # Midterm term projects
+│ ├── Lab_Act_#1-3/ # Lab Activities 1 to 3
+│ │ ├── Lab1.ino # Arduino sketch for Lab 1
+│ │ ├── Lab2.ino # Arduino sketch for Lab 2
+│ │ └── Lab3.ino # Arduino sketch for Lab 3
+│ └── Midterms_Lab_Exam/ # Midterm lab exam
+│ └── ExamFiles/ # Files used in the exam
+│
+├── Finals/ # Final term projects
+│ ├── Lab_Act_4-7/ # Lab Activities 4 to 7
+│ │ ├── Lab4.ino
+│ │ ├── Lab5.ino
+│ │ ├── Lab6.ino
+│ │ └── Lab7.ino
+│ └── Finals_Lab_Exam/ # Final lab exam
+│ └── ExamFiles/
+│
+├── Diagrams/ # Circuit diagrams, flowcharts, or images
+│ └── ...
+│
+├── PythonScripts/ # Python scripts used in labs or experiments
+│ └── ...
+│
+├── .gitignore # Files and folders ignored by Git
+└── README.md # This file
+
+---
+
 ## Common Files in Each Lab
 
 | File | Description |
