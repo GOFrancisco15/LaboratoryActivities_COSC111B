@@ -38,17 +38,3 @@ The system consists of:
   - `/led/off` — turns all LEDs OFF
 
 The Python application communicates with the Arduino through a serial connection, sending single-character commands that correspond to each LED.
-
----
-
-## 🗂 Files Included
-| File Name | Description |
-|----------|-------------|
-| `lab7_activity.ino` | Arduino sketch managing LED states, push button inputs, and serial command handling |
-| `lab7_api.py` | FastAPI Python application converting HTTP requests into serial commands for Arduino control |
-| `lab7_breadboard_diagram.png` | Breadboard diagram showing LED and push button connections to the Arduino |
-
----
-
-## 📝 Notes
-This activity demonstrates a full-stack IoT approach, integrating hardware inputs, serial communication, and web-based APIs. It highlights real-world design principles for remotely controlling and synchronizing physical devices using modern web technologies.
