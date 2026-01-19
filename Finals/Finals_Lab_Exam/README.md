@@ -46,3 +46,12 @@ The system consists of:
 - One button press = one API request  
 - Long button presses must **not** generate repeated API calls  
 - All serial input must be validated and errors displayed if necessary
+
+## 👥 Team Members
+- **Team Leader:** Gerard Obey S. Francisco
+- **Members:**
+  - Merell Joy B. Barrion
+  - Johnny S. De Asis
+  - Allexzeus Marvel C. Padilla
+  - Eduardo V. Osit
+  - Maureen T. Roldan
