@@ -1,4 +1,4 @@
-# Mindterms Laboratory Exam – Smart Lighting System
+# Mindterms Laboratory Exam – Smart Lighting System Using Arduino
 
 ## 📌 Description
 This laboratory activity demonstrates how to build a **smart lighting system** using Arduino. The system uses a **photoresistor** to measure ambient light intensity and **three LEDs** to indicate the light level. It includes **manual** and **automatic** modes, allowing the system to simulate environmental changes such as cloudy or sunny conditions.
