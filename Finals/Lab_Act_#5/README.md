@@ -40,3 +40,14 @@ The system consists of an Arduino connected to **three LEDs** (red, green, and b
 All inputs are **case-insensitive**, and Arduino provides feedback like `RED ON`, `ALL OFF`, or `ERR: UNKNOWN COMMAND`.
 
 This setup demonstrates real-time control of LEDs with immediate feedback from the Arduino.
+
+---
+
+## 👥 Team Members
+- **Team Leader:** Johnny S. De Asis
+- **Members:**
+  - Merell Joy B. Barrion
+  - Gerard Obey S. Francisco
+  - Eduardo V. Osit
+  - Allexzues Marvel C. Padilla
+  - Maureen T. Roldan
